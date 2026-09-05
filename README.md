@@ -10,6 +10,9 @@ The core of the analysis focuses on the residuals obtained by subtracting 4MOST 
 ### Techniques Explored:
 * **Normalization:** Comparing polynomial fitting versus sigma-clipping.
 * **Line Masking:** Utilizing `scipy.signal.find_peaks`, manual integrated statistics, and hybrid combinations of both approaches.
+* **`EW and radial velocities.ipynb`:** Analysis notebook focused on calculating Equivalent Widths (EW) and measuring radial velocities.
+
+(In the future work, the goal in upcoming updates is to build a better stucture separating core functions of the pipeline, so you can see separately the tools and the workflow to build science, improving modularity)
 
 ---
 
